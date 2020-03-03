@@ -1,8 +1,8 @@
-DEPOT_PATH
-DEPOT_PATH[1]="D:\\.julia"
-DEPOT_PATH[2]="D:\\Julia-1.2.0\\local\\share\\julia"
-DEPOT_PATH[3]="D:\\Julia-1.2.0\\share\\julia"
-DEPOT_PATH
+#DEPOT_PATH
+#DEPOT_PATH[1]="D:\\.julia"
+#DEPOT_PATH[2]="D:\\Julia-1.2.0\\local\\share\\julia"
+#DEPOT_PATH[3]="D:\\Julia-1.2.0\\share\\julia"
+#DEPOT_PATH
 
 #import Pkg; using Pkg Pkg.add("TaylorSeries")
 using TaylorSeries

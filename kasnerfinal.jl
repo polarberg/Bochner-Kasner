@@ -1,8 +1,8 @@
-DEPOT_PATH
-DEPOT_PATH[1]="D:\\.julia"
-DEPOT_PATH[2]="D:\\Julia-1.2.0\\local\\share\\julia"
-DEPOT_PATH[3]="D:\\Julia-1.2.0\\share\\julia"
-DEPOT_PATH
+#DEPOT_PATH
+#DEPOT_PATH[1]="D:\\.julia"
+#DEPOT_PATH[2]="D:\\Julia-1.2.0\\local\\share\\julia"
+#DEPOT_PATH[3]="D:\\Julia-1.2.0\\share\\julia"
+#DEPOT_PATH
 
 import Pkg; using Pkg
 Pkg.add("DifferentialEquations"); Pkg.add("Plots")
@@ -71,4 +71,5 @@ PlotAppend(plots)
 
 # saving the plot 
 plot!(sol1.t,solArray(sol1),legend = false,dpi=2000)
-png("D:\\COMP SCI\\Julia\\Final\\Finalfigure2.png")
+#png("D:\\COMP SCI\\Julia\\Final\\Finalfigure2.png")  #**** CHANGE to WHERE YOU want to SAVE
+#savefig("C:\\Users\\Austin\\Documents\\CS\\Julia\\Kasner\\Kasner_2-3_2-3_-1-3__1e-16to12__u0_at_t-4.pdf") #*** remember the // for each / 
