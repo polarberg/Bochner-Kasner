@@ -4,7 +4,8 @@
 #DEPOT_PATH[3]="D:\\Julia-1.2.0\\share\\julia"
 #DEPOT_PATH
 
-#import Pkg; using Pkg Pkg.add("TaylorSeries")
+import Pkg; using Pkg
+Pkg.add("TaylorSeries")
 using TaylorSeries
 
 

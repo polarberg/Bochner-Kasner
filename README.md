@@ -12,6 +12,17 @@ Future plans?
 
 
 
+https://juliamath.github.io/SpecialFunctions.jl/latest/functions_overview/
+    https://en.wikipedia.org/wiki/Bessel_function
+
+PLotting
+http://mth229.github.io/graphing.html
+
+
+https://github.com/JuliaMath/Calculus.jl
+    https://web.stanford.edu/group/sisl/k12/optimization/MO-unit4-pdfs/4.4packages,sawtooth.pdf
+
+
 Useful Links
 
 Markdown file cheat sheet
