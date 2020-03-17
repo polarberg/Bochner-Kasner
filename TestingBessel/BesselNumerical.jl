@@ -40,12 +40,14 @@ f(1.0009243471260376-1)
 sol.u[2][2]
 sol.t
 
-
+Pkg.add("QuadGK")
 using QuadGK
 q=1.0027549075130426
 BI(t)=cos(0*t-q*sin(t))/pi
-quadgk(BI, 0, pi, rtol=1e-10)
+quadgk(BI, 0, pi, rtol=1e-10)[1] #numerical integration
 f(q)
 besselj(0,q)
 
-#differentiate()
+using Calculus
+differentiate("cos(x) + sin(x) + exp(-x) * cos(x)", :x)
+differentiate("cos(x) + sin(y) + exp(-x) * cos(y)", [:x, :y])
